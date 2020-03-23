@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url(../fonts/Lucida\ Sans.ttf);
+}
+@font-face {
+    font-family:'Lucida Sans Italic' ;
+    src: url(../fonts/Lucida\ Sans\ Italic.ttf);
+}
+@font-face {
+    font-family:'LaoUI';
+    src: url(../fonts/LaoUI.ttf);
+}
+.container {
+    max-width: 640px;
+    padding: 0px;
+}
+.row {
+    padding: 0px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+p {
+    font-size: 10px;
+}
+img {
+    size: 100%;
+}
+.logos img {
+  height: 100%; 
+}
+.nav_link_board {
+    padding: 0.8rem 0rem;
+}
+.container .logos {
+    background-color: #5b5b5b;
+    display: flex;
+    padding: 8px 16px;
+}
+.logos h2 {
+    font-family: 'Lucida Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-shadow: 1px 1px #2c2c2c;
+    padding-top: 14px ;
+}
+.navs_color {
+    background: #eec006;
+}
+.navs a {
+    color: #b99403;
+}
+.first_carousel {
+    padding: 0px;
+}
+.rio_movie {
+    height: 340px;
+    width: 640px;
+}
+.options {
+    background-image: url(../img/layer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blocks_car {
+    display: flex;
+    justify-content: center;
+}
+.cool {
+    background-image: url(../img/back.png);
+    height: 335px;
+    width: 557px;
+    background-size: cover;
+    text-align: center;
+}
+.cool h2 {
+    font-family:'Asap', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.cool p {
+    font-family: 'Asap', sans-serif;
+    font-size: 2rem;
+    color: #eec006;
+    text-transform: uppercase;
+}
+.symb {
+    text-align: center;
+    padding: 1rem;
+}
+.symb p {
+    font-family: 'LaoUI', sans-serif;
+    text-transform: uppercase;
+    color: #616161;
+    font-size: 1.2rem;
+}
+.cloud_shape img{
+    margin-bottom: 7px;
+}
+.or_text p {
+    font-family: 'Segoe UI','LaoUI', sans-serif;
+    font-size: 1.8rem;
+    color: #ffffff;
+    height: 232px;
+    width: 305px;
+    padding: 15px;
+}
+.or_text .cards {
+    background-color: #ec9e03;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.second_carousel {
+    padding: 0px;
+    margin: 0px;
+}
+.lorem_block {
+    background-color: #474747;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+.lorem_block h2 {
+    text-align: center;
+    color: #f5c506;
+    font-size: 2rem;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.its_free {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.carousel_block {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 5px;
+}
+.its_free {
+    position: relative;
+}
+.free {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f5c506;
+    top: -2rem;
+    left: 2rem;
+}
+.free p {
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    color: #ffffff;
+    padding: 2.5rem 0.2rem;
+    margin: 0px;
+}
+.tweet_section {
+    background-color: #f5c507;
+}
+.tweet_section textarea {
+    width: 15rem;
+    height: 2rem;
+    resize: none;
+}
+.tw_form {
+    display: inline;
+}
+.tweet_section .tw_form .tweets {
+    display: flex;
+    align-items: flex-end;
+}
+.tweet {
+    background-color:#e3a220;
+    color: #ffffff;
+}
+.tw_logo {
+    
+    padding: 2rem 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+}
